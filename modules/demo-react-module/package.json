@@ -1,0 +1,23 @@
+{
+	"dependencies": {
+		"css": "^3.0.0",
+		"react": "16.8.6",
+		"react-dom": "16.8.6",
+		"react-textfit": "^1.1.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.0.0",
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"@babel/preset-react": "^7.0.0",
+		"css-loader": "^6.7.3",
+		"liferay-npm-bundler": "2.18.2",
+		"liferay-npm-bundler-loader-css-loader": "2.18.4"
+	},
+	"main": "lib/index.es.js",
+	"name": "demo-react-module",
+	"scripts": {
+		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+	},
+	"version": "1.0.0"
+}

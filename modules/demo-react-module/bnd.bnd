@@ -1,0 +1,6 @@
+Bundle-Name: demo-react-module
+Bundle-SymbolicName: com.liferay.react.module
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.react.module.constants
+Web-ContextPath: /demo-react-module
+
