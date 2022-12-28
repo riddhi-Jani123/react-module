@@ -1,0 +1,25 @@
+{
+	"dependencies": {
+		"jquery": "^3.6.3",
+		"react": "18.2.0",
+		"react-bootstrap": "2.7.0",
+		"react-dom": "16.8.6",
+		"react-script-tag": "1.1.2"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.0.0",
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"@babel/preset-react": "^7.0.0",
+		"liferay-npm-bundler": "2.18.2",
+		"webpack": "4.29.6",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"main": "lib/index.es.js",
+	"name": "new-react",
+	"scripts": {
+		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+	},
+	"version": "1.0.0"
+}
